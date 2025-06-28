@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-zenithium-cyan: #1BDCE9;
+  --color-zenithium-purple: #9629F2;
+}
