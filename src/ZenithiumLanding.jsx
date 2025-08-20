@@ -2,7 +2,8 @@ import { useState, useEffect } from "react"
 import { Code, Database, Globe, Shield, Users, Zap, Menu, X, ArrowRight, CheckCircle, Star } from "lucide-react"
 import Logo from './assets/images/Logo.png';
 import appEIS from './assets/images/appEIS.jpg';
-import ContactForm from '/src/ContactForm.jsx'
+import ContactForm from './components/ContactForm.jsx'
+import WhatsAppButton from "./components/whatsAppButton";
 
 export default function ZenithiumLanding() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -424,6 +425,7 @@ export default function ZenithiumLanding() {
               </div>
 
               <ContactForm/>
+              <WhatsAppButton/>
             </div>
           </div>
         </div>
