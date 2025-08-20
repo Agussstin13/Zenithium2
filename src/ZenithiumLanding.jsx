@@ -367,7 +367,7 @@ export default function ZenithiumLanding() {
                       </div>
                       <div>
                         <div className="font-medium">Teléfono</div>
-                        <div className="text-gray-600">+54 9 223-5458913</div>
+                        <div className="text-gray-600">+54 9 223-5582433</div>
                       </div>
                     </div>
                     <div className="flex items-center space-x-3">
